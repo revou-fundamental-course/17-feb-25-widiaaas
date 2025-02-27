@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script defer src="/js/script.js"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Travel Bud's</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#package">Our Package</a></li>
+                <li><a href="#call-action">Call Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="container">
+        <h1>Your Trusted Travel Agent's</h1>
+        <p class="subtitle">Your happiness is our happiness</p>
+    
+        <div class="content">
+            <!-- Bagian Gambar -->
+            <div class="image-section">
+                <div class="slider">
+                    <div class="slider-container">
+                        <img src="/assets/bali.jpeg" class="slide active">
+                        <img src="/assets/jogja.jpeg" class="slide">
+                        <img src="/assets/kupang.jpeg" class="slide">
+                    </div>
+            
+                    <!-- Tombol Navigasi -->
+                    <div class="slider-controls">
+                        <button id="prevSlide">&#10094;</button>
+                        <button id="nextSlide">&#10095;</button>
+                    </div>
+                </div>
+            
+                <blockquote>
+                    "Liburan jadi menyenangkan bersama Travel Agentku."
+                </blockquote>
+                <div class="author">
+                    <strong>Florence Hughes</strong><br>
+                    <span>Ibu Rumah Tangga, 28</span>
+                </div>
+            </div>
+            
+    
+            <!-- Bagian Formulir -->
+            <div class="contact-section">
+                <h2>Contact Us</h2>
+                <p>Sales akan menghubungi Anda 1x24 jam setelah data kami terima.</p>
+                <form id="contactForm">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" placeholder="First and last name" required>
+    
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" placeholder="example@email.com" required>
+    
+                    <label for="interest">What are you interested in?</label>
+                    <select id="interest" required>
+                        <option value="">Select option</option>
+                        <option value="travel">Travel Packages</option>
+                        <option value="hotel">Hotel Booking</option>
+                        <option value="tour">Guided Tours</option>
+                    </select>
+    
+                    <button type="submit">SEND</button>
+                </form>
+                <p id="formMessage" class="hidden">Terima kasih! Pesan Anda telah terkirim.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Package Section -->
+    <section id="package" class="package">
+        <h2>Our Package</h2>
+        <div class="package-container">
+            <div class="package-card">
+                <h3>Bali</h3>
+                <p>Wisata budaya, kuliner, dan pantai eksotis di Bali.</p>
+            </div>
+            <div class="package-card">
+                <h3>Japan</h3>
+                <p>Nikmati sakura, kuliner khas, dan budaya Jepang yang unik.</p>
+            </div>
+            <div class="package-card">
+                <h3>Singapore</h3>
+                <p>Jelajahi kota modern dengan taman dan wisata belanja terbaik.</p>
+            </div>
+            <div class="package-card">
+                <h3>Bandung</h3>
+                <p>Temukan wisata alam dan kuliner khas di Kota Kembang.</p>
+            </div>
+            <div class="package-card">
+                <h3>Surabaya</h3>
+                <p>Kunjungi wisata sejarah dan kuliner legendaris di Surabaya.</p>
+            </div>
+            <div class="package-card">
+                <h3>Thailand</h3>
+                <p>Eksplorasi kuil megah dan pasar terapung di Thailand.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Call Us Section -->
+    <section id="call-action" class="call-us">
+        <h2>Your Closing Argument Headline</h2>
+        <p>Hubungi kami untuk mendapatkan promo dan paket wisata terbaik.</p>
+        <button class="cta-button">CALL TO ACTION</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="logo-footer">Travel Bud's</div>
+            <div class="footer-links">
+                <a href="#">Terms of Service</a> |
+                <a href="#">Privacy Policy</a>
+            </div>
+            <p>© 2025 Travel Bud's</p>
+        </div>
+    </footer>
+
+</body>
+</html>
